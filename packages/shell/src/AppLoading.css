@@ -1,0 +1,13 @@
+.wl-page-loader-pulse {
+    animation: wl-page-loader-pulse 1s infinite alternate linear;
+}
+
+@keyframes wl-page-loader-pulse {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.15;
+    }
+}

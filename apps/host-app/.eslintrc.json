@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/eslintrc",
+    "root": true,
+    "plugins": ["@orbit-ui"],
+    "extends": [
+        "plugin:@workleap/web-application",
+        "plugin:@orbit-ui/recommended"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "@poc-css/local-module-sample",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "nodemon --config ./nodemon.json",
+        "dev-msw": "pnpm dev",
+        "build": "tsup --config ./tsup.build.ts"
+    },
+    "devDependencies": {
+        "@storybook/react": "8.3.0",
+        "@poc-css/eslint-plugin": "workspace:*",
+        "@types/react": "18.3.5",
+        "@types/react-dom": "18.3.0",
+        "@workleap/stylelint-configs": "2.0.3",
+        "@workleap/tsup-configs": "3.0.6",
+        "@workleap/typescript-configs": "3.0.2",
+        "eslint": "8.57.0",
+        "nodemon": "3.1.4",
+        "postcss": "8.4.45",
+        "stylelint": "16.9.0",
+        "tsup": "8.2.4",
+        "typescript": "5.6.2"
+    },
+    "dependencies": {
+        "@hopper-ui/icons": "2.8.0",
+        "@hopper-ui/styled-system": "2.3.2",
+        "@tanstack/react-query": "5.56.2",
+        "@tanstack/react-query-devtools": "5.56.2",
+        "@poc-css/components": "workspace:*",
+        "@poc-css/federation-runtime": "workspace:*",
+        "@poc-css/http": "workspace:*",
+        "@poc-css/msw": "workspace:*",
+        "@workleap/orbiter-ui": "5.2.0",
+        "i18next": "23.15.1",
+        "i18next-browser-languagedetector": "8.0.0",
+        "msw": "2.4.6",
+        "react": "18.3.1",
+        "react-aria-components": "1.3.3",
+        "react-dom": "18.3.1",
+        "react-i18next": "15.0.1",
+        "react-router-dom": "6.26.2"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}

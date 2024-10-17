@@ -1,0 +1,28 @@
+.page-tab {
+    color: var(--hop-neutral-text-weak);
+    outline: none;
+    outline-offset: 0.125rem;
+}
+
+/* active is added by the navlink */
+.page-tab.active {
+    color: var(--hop-neutral-text);
+}
+
+.page-tab:hover {
+    color: var(--hop-neutral-text-hover);
+}
+
+.page-tab:focus-visible {
+    outline: 0.125rem solid var(--hop-primary-surface-hover);
+}
+
+.page-tab.active::after {
+    content: "";
+    width: 100%;
+    height: 0.125rem;
+    background-color: var(--hop-neutral-border-strong);
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+}

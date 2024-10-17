@@ -1,0 +1,19 @@
+.sidebar-item {
+    box-sizing: border-box;
+    outline: none;
+    transition: background-color var(--o-ui-easing-duration-2) var(--o-ui-easing-productive);
+    background-color: transparent;
+}
+
+/* active is added by the navlink */
+.sidebar-item.active {
+    background-color: var(--hop-neutral-surface-weakest-active);
+}
+
+.sidebar-item:hover {
+    background-color: var(--hop-neutral-surface-weak-hover);
+}
+
+.sidebar-item:focus-visible {
+    outline: 0.125rem solid var(--hop-primary-surface-hover);
+}

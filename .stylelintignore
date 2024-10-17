@@ -1,0 +1,6 @@
+**/dist/*
+node_modules
+storybook-static
+
+# dot folder are not linted by default.
+!.storybook

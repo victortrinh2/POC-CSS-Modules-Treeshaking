@@ -1,0 +1,41 @@
+{
+    "AuthenticatedLayout": {
+        "close": "Fermer",
+        "sidebar": "Menu",
+        "loading": "Chargement de la page…"
+    },
+    "ApplicationRootLayout": {
+        "title": "Mon App!"
+    },
+    "Forbidden": {
+        "imageAriaLabel": "Interdit",
+        "title": "Vous n'avez pas accès à cette page",
+        "text": "Demandez à votre administrateur si vous pensez que vous devriez avoir accès.",
+        "buttonText": "Allez à TBD"
+    },
+    "InternalServerError": {
+        "imageAriaLabel": "Erreur interne du serveur",
+        "title": "Workleap ne fonctionne pas correctement pour le moment",
+        "text": "Vous attendez plus de nous, et nous aussi. Nous travaillons donc dur pour vous redonner l'expérience que vous méritez.",
+        "buttonText": "Allez à TBD"
+    },
+    "ChunkLoadError": {
+        "imageAriaLabel": "",
+        "title": "",
+        "text": "",
+        "goBackButtonText": "",
+        "reloadButtonText": ""
+    },
+    "NotFound": {
+        "imageAriaLabel": "Page introuvable",
+        "title": "Est-ce que quelqu'un sait ce que signifie 'erreur 404' ?",
+        "line-1": "Au lieu de cela, nous appellerons peut-être cela notre page 'Nous sommes vraiment désolés'. Nous sommes canadiens, après tout!",
+        "line-2": "Essayez de revenir à <HomeLink>Workleap</HomeLink>. Si vous ne trouvez toujours pas ce dont vous avez besoin, contactez le <ContactLink>support</ContactLink>."
+    },
+    "PreventNavigationModal": {
+        "heading": "Effacer vos changements?",
+        "content": "Si vous partez, vos changements ne seront pas enregistrés.",
+        "discardChanges": "Effacer",
+        "keepEditing": "Continuer l’édition"
+    }
+}

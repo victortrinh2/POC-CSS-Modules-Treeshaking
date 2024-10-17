@@ -1,0 +1,14 @@
+{
+    "AppLoading": {
+        "text": "Workleap est en chargement..."
+    },
+    "RootLayout": {
+        "loading": "Chargement de la page…"
+    },
+    "ToastProvider": {
+        "ariaLabel": "Notifications"
+    },
+    "AppRouter": {
+        "cannotLoadHeaderDataMessage": "Certaines informations ne sont pas disponibles. Veuillez réessayer plus tard."
+    }
+}

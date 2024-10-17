@@ -1,0 +1,12 @@
+{
+    "navigationItems": {
+        "settingsPage": "Dummy",
+        "userSettingsTab1": "Dummy 1",
+        "userSettingsTab2": "Dummy 2",
+        "userSettingsPage": "Users",
+        "profilePage": "Dummy",
+        "preferencesPage": "Preferences",
+        "preferencesTab1": "Dummy 1",
+        "preferencesTab2": "Dummy 2"
+    }
+}

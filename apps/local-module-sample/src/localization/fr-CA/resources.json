@@ -1,0 +1,13 @@
+{
+    "navigationItems": {
+        "episodesPage": "Épisodes (remote)"
+    },
+    "EpisodesPage": {
+        "title": "Épisodes",
+        "body": "Ceci est une page pour démontrer Squide, Tanstack Query ainsi que le chargement de données à partir d'un endpoint MSW.",
+        "episodesText": "Voici une liste d'épisodes de Rick et Morty récupérés à partir d'un endpoint MSW avec Tanstack Query:",
+        "idLabel": "Id",
+        "nameLabel": "Nom",
+        "episodeLabel": "Épisode"
+    }
+}

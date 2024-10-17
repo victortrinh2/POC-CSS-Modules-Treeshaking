@@ -1,0 +1,24 @@
+{
+    "extends": "@workleap/typescript-configs/library.json",
+    "compilerOptions": {
+        "paths": {
+            "@poc-css/components": ["../components/src/index.ts"],
+            "@poc-css/federation-runtime": ["../federation-runtime/src/index.ts"],
+            "@poc-css/layouts": ["../layouts/src/index.ts"],
+            "@poc-css/layouts/index.css": ["../layouts/src/index.css"],
+            "@poc-css/http": ["../http/src/index.ts"],
+            "@poc-css/msw": ["../msw/src/index.ts"]
+        }
+    },
+    "include": [
+        "src",
+        "types",
+        /**
+         * Since we are using module augmentation in the packages, and we use tsconfig paths to resolve the packages
+         * from this repo, we need to include the types folder in the packages to make sure the types are included
+         * in the build.
+        */
+        "../layouts/types"
+    ],
+    "exclude": ["dist", "node_modules"]
+}

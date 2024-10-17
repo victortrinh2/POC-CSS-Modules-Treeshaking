@@ -1,0 +1,9 @@
+.page-breadcrumb__link span {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: inherit !important;
+    line-height: inherit;
+    font-family: inherit;
+    text-transform: inherit;
+}

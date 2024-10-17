@@ -1,0 +1,14 @@
+{
+    "AppLoading": {
+        "text": "Workleap is loading..."
+    },
+    "RootLayout": {
+        "loading": "Loading page…"
+    },
+    "ToastProvider": {
+        "ariaLabel": "Notifications"
+    },
+    "AppRouter": {
+        "cannotLoadHeaderDataMessage": "We're having issues fetching your data. Please refresh the page."
+    }
+}

@@ -1,0 +1,13 @@
+**/dist/*
+__snapshots__
+node_modules
+storybook-static
+pnpm-lock.yaml
+*.md
+
+# dot folder are not linted by default.
+!.changeset
+!.netlify
+!.pipelines
+!.storybook
+!.vscode

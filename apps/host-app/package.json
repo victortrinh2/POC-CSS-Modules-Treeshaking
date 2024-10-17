@@ -1,0 +1,70 @@
+{
+  "name": "@poc-css/host-app-sample",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "dev-msw": "cross-env APP_ENV=msw pnpm dev",
+    "build": "pnpm build:webpack && pnpm build-copy-redirect && pnpm build:copy-public-files",
+    "build:webpack": "webpack --config webpack.build.js",
+    "build-copy-redirect": "copyfiles _redirects dist",
+    "build:copy-public-files": "copyfiles -u 1 public/favicon.png public/workleap.svg public/mockServiceWorker.js dist",
+    "serve-app": "pnpm build && pnpm http-server dist -p 8080 -P http://localhost:8080? -c-1"
+  },
+  "devDependencies": {
+    "@orbit-ui/eslint-plugin": "1.0.0",
+    "@svgr/webpack": "8.1.0",
+    "@swc/core": "1.7.26",
+    "@swc/helpers": "0.5.13",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@workleap/browserslist-config": "2.0.1",
+    "@workleap/eslint-plugin": "3.2.2",
+    "@workleap/postcss-configs": "1.0.4",
+    "@workleap/stylelint-configs": "2.0.3",
+    "@workleap/swc-configs": "2.2.3",
+    "@workleap/typescript-configs": "3.0.2",
+    "@workleap/webpack-configs": "1.5.1",
+    "browserslist": "4.23.3",
+    "copyfiles": "2.4.1",
+    "cross-env": "7.0.3",
+    "eslint": "8.57.0",
+    "http-server": "14.1.1",
+    "nodemon": "3.1.4",
+    "postcss": "8.4.45",
+    "stylelint": "16.9.0",
+    "typescript": "5.6.2",
+    "webpack": "5.94.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.1.0"
+  },
+  "dependencies": {
+    "@hopper-ui/icons": "2.8.0",
+    "@hopper-ui/styled-system": "2.3.2",
+    "@poc-css/components": "workspace:*",
+    "@poc-css/federation-runtime": "workspace:*",
+    "@poc-css/http": "workspace:*",
+    "@poc-css/layouts": "workspace:*",
+    "@poc-css/local-module-sample": "workspace:*",
+    "@poc-css/msw": "workspace:*",
+    "@poc-css/shell": "workspace:*",
+    "@workleap/orbiter-ui": "5.2.0",
+    "i18next": "23.15.1",
+    "i18next-browser-languagedetector": "8.0.0",
+    "msw": "2.4.6",
+    "react": "18.3.1",
+    "react-aria-components": "1.3.3",
+    "react-dom": "18.3.1",
+    "react-i18next": "15.0.1",
+    "react-router-dom": "6.26.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

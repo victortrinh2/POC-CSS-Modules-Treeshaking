@@ -1,0 +1,13 @@
+{
+    "extends": "@workleap/typescript-configs/library.json",
+    "compilerOptions": {
+        "paths": {
+            "@poc-css/components": ["../components/src/index.ts"],
+            "@poc-css/federation-runtime": ["../federation-runtime/src/index.ts"],
+            "@poc-css/http": ["../http/src/index.ts"],
+            "@poc-css/msw": ["../msw/src/index.ts"]
+        }
+    },
+    "include": ["src", "types"],
+    "exclude": ["dist", "node_modules"]
+}

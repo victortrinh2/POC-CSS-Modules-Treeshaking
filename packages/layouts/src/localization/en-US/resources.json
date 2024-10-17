@@ -1,0 +1,41 @@
+{
+    "AuthenticatedLayout": {
+        "close": "Close",
+        "sidebar": "Sidebar",
+        "loading": "Loading page…"
+    },
+    "ApplicationRootLayout": {
+        "title": "My App!"
+    },
+    "Forbidden": {
+        "imageAriaLabel": "Forbidden",
+        "title": "You don't have access to this page",
+        "text": "Ask your admin if you think you should have access.",
+        "buttonText": "Go to TBD"
+    },
+    "InternalServerError": {
+        "imageAriaLabel": "Internal server error",
+        "title": "Workleap is not working properly right now",
+        "text": "You expect more from us, and so do we. So we're working hard to bring back the experience you deserve.",
+        "buttonText": "Go to TBD"
+    },
+    "ChunkLoadError": {
+        "imageAriaLabel": "Route load error",
+        "title": "The screen you're looking for wasn't found",
+        "text": "It's likely the page was recently updated and the browser needs to be reloaded. You can reload now or go back to your previous page.",
+        "goBackButtonText":"Go Back",
+        "reloadButtonText": "Reload"
+    },
+    "NotFound": {
+        "imageAriaLabel": "Page not found",
+        "title": "Does anyone even know what '404 error' means?",
+        "line-1": "Instead, maybe we'll call this our 'we're so sorry' page. We are Canadian, after all!",
+        "line-2": "Try going back to <HomeLink>Workleap</HomeLink>. If you still can't find what you need, contact <ContactLink>Support</ContactLink>."
+    },
+    "PreventNavigationModal": {
+        "heading": "Discard your changes?",
+        "content": "If you leave, any changes you made will be lost.",
+        "discardChanges": "Discard changes",
+        "keepEditing": "Keep editing"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "navigationItems": {
+        "episodesPage": "Episodes"
+    },
+    "EpisodesPage": {
+        "title": "Episodes",
+        "body": "This is a sample page to showcase Squide, Tanstack Query and data fetching from an MSW endpoint.",
+        "episodesText": "Here's a list of episodes from Rick and Morty fetched from an MSW endpoint with Tanstack Query:",
+        "idLabel": "Id",
+        "nameLabel": "Name",
+        "episodeLabel": "Episode"
+    }
+}
